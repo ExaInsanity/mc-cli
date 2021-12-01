@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MinecraftServerCli": {
+      "commandName": "Project"
+    },
+    "install-test": {
+      "commandName": "Project",
+      "commandLineArgs": "install 1.16.1 ./test scripts -wl"
+    }
+  }
+}
