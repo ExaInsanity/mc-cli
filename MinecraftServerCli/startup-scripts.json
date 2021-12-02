@@ -1,0 +1,37 @@
+[
+  {
+    "id": "default",
+    "windows": "java -Xmx2560M -jar server.jar",
+    "linux": "java -Xmx2560M -jar server.jar"
+  },
+  {
+    "id": "pre-1.8",
+    "windows": "java -Xmx512M -jar server.jar",
+    "linux": "java -Xmx512M -jar server.jar"
+  },
+  {
+    "id": "1.8-1.12",
+    "windows": "java -Xmx1024M -jar server.jar",
+    "linux": "java -Xmx1024M -jar server.jar"
+  },
+  {
+    "id": "1.13-1.15",
+    "windows": "java -Xmx2048M -jar server.jar",
+    "linux": "java -Xmx2048M -jar server.jar"
+  },
+  {
+    "id": "1.16",
+    "windows": "java -Xmx4096M -jar server.jar",
+    "linux": "java -Xmx4096M -jar server.jar"
+  },
+  {
+    "id": "1.17",
+    "windows": "java -Xmx4096M -XX:+UseZGC -jar server.jar",
+    "linux": "java -Xmx4096M -XX:+UseZGC -jar server.jar"
+  },
+  {
+    "id": "1.18",
+    "windows": "java -Xmx6G -XX:+UseZGC -jar server.jar",
+    "linux": "java -Xmx6G -XX:+UseZGC -jar server.jar"
+  }
+]

@@ -40,7 +40,7 @@ public class InstallCommandHandler
             return;
         }
 
-        if(args[2] == "scripts")
+        if(args[2] == "generate")
         {
             new GenerateCommandHandler().RunCommand(args[3..], args[1]);
         }

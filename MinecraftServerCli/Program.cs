@@ -2,7 +2,6 @@
 
 using System;
 using System.Net.Http;
-using System.Runtime.CompilerServices;
 
 using MinecraftServerCli.Commands;
 using MinecraftServerCli.Commons;
@@ -11,7 +10,7 @@ public static class Program
 {
     public static DownloadClient DownloadClient { get; private set; }
     public static HttpClient HttpClient { get; private set; }
-    public static String Version => "0.0.1";
+    public static String Version => "0.0.2";
 
     public const String ManifestLocation = "https://launchermeta.mojang.com/mc/game/version_manifest.json";
 
